@@ -1,0 +1,2 @@
+@RequestParam(value="deptIds[]",required = false) 
+接收数组型参数在参数名后加上[]required = false取消默认必填
