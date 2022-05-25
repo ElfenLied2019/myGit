@@ -1,2 +1,3 @@
 @RequestParam(value="deptIds[]",required = false) 
 接收数组型参数在参数名后加上[]required = false取消默认必填
+hql参数录入in(:codes)需要把数组转成List 用Arrays.asList
